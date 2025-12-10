@@ -12,12 +12,7 @@
 </head>
 <body>
 <header>
-    <nav>
-        <li><a href="{{ route('home') }}">Главная</a></li>
-        <li><a href="{{ route('about') }}">О нас</a></li>
-        <li><a href="{{ route('contacts') }}">Контакты</a></li>
-
-    </nav>
+    @include('includes.navbarSimpleDark')
 </header>
 
 

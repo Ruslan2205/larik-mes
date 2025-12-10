@@ -13,3 +13,14 @@
 body { background: #7c7575
 }
 
+header {
+    position: relative;
+    z-index: 10;
+}
+
+
+.form-alert {
+    background: #ffa5007a;
+    padding: 10px;
+    margin-bottom: 10px;
+}
